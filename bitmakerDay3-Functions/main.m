@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 // c style funtion
 void someFunction() {
@@ -24,6 +25,9 @@ void addTwoSumsVoid(int c, int d) {
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
+        Person *person = [[Person alloc]init];
+        [person returnString];
+        // call someFunction
         someFunction();
         int balance = returnSomeInt();
         NSLog(@"%i", balance);

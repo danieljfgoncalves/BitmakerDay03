@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E4C892ED1AD5700E0084FA5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C892EC1AD5700E0084FA5D /* main.m */; };
+		E4C892F61AD57C5E0084FA5D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C892F51AD57C5E0084FA5D /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E4C892E91AD5700E0084FA5D /* bitmakerDay3-Functions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bitmakerDay3-Functions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C892EC1AD5700E0084FA5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4C892F41AD57C5E0084FA5D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E4C892F51AD57C5E0084FA5D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,7 @@
 		E4C892E01AD5700D0084FA5D = {
 			isa = PBXGroup;
 			children = (
+				E4C892F31AD57C270084FA5D /* Model */,
 				E4C892EB1AD5700E0084FA5D /* bitmakerDay3-Functions */,
 				E4C892EA1AD5700E0084FA5D /* Products */,
 			);
@@ -60,6 +64,15 @@
 				E4C892EC1AD5700E0084FA5D /* main.m */,
 			);
 			path = "bitmakerDay3-Functions";
+			sourceTree = "<group>";
+		};
+		E4C892F31AD57C270084FA5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4C892F41AD57C5E0084FA5D /* Person.h */,
+				E4C892F51AD57C5E0084FA5D /* Person.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4C892F61AD57C5E0084FA5D /* Person.m in Sources */,
 				E4C892ED1AD5700E0084FA5D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
