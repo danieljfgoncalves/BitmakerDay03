@@ -30,15 +30,9 @@ int main(int argc, const char * argv[]) {
         int a = 10;
         int b = 20;
         // call function with two integers
-        addTwoSumsVoid(25, 35);
+        addTwoSumsVoid(a, b);
         addTwoSumsVoid(5, 5);
-        // compare two integers
-        if(a >b) {
-            NSLog(@"value is larger");
-        } else {
-            NSLog(@"value isn't larger");
-        }
-        NSLog(@"Hello, World!");
+        NSLog(@"%i", a + 5);
     }
     return 0;
 }
